@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.bg {
+	background-color: #F4F4F4
+}
+
+/* Barre de navigation */
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #525b61;
+	color: white;
+}
+
+.navTitle {
+	font-size: 1.5rem;
+	margin: .5rem;
+}
+
+.navbarLinks ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.navbarLinks li {
+	list-style: none;
+}
+
+.navbarLinks li a {
+	text-decoration: none;
+	color: white;
+	padding: 1rem;
+	display: block;
+	transition: 0.3s;
+}
+
+.navbarLinks li:hover {
+	background-color: #78868f;
+	transition: 0.3s;
+}
+
+.navToggleButton {
+	position: absolute;
+	top: .75rem;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+
+.navToggleButton .bar {
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+	.navToggleButton {
+		display: flex;
+	}
+
+	.navbarLinks {
+		display: none;
+		width: 100%;
+	}
+
+	.navbar {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.navbarLinks ul {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.navbarLinks.active {
+		display: flex;
+	}
+}
