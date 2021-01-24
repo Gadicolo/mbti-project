@@ -5,7 +5,7 @@ Pour une possible v0.2.1:
   - Travailler sur une 0.3
  
 Pour v0.3:
-  - Terminer la structure de chaque page (ajouter le footer)
+  - [X] Terminer la structure de chaque page (ajouter le footer)
   - Faire le contenu de la page d'accueil "index.html"
   - Créer la page d'informations sur laquelle on peut cliquer sur "index.html"
   - Elaborer certaines idées d'illustrations pour chaque type MBTI et fonction (à la manière de 16p)
