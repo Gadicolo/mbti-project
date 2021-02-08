@@ -1,13 +1,14 @@
 # mbti-project
 
-Pour une possible v0.2.1:
+Pour une possible v0.2.3:
   - Corriger bugs existants
   - Travailler sur une 0.3
+  - Finir la page d'informations en priorité
  
 Pour v0.3:
   - [X] Terminer la structure de chaque page (ajouter le footer)
   - Faire le contenu de la page d'accueil "index.html"
-  - Créer la page d'informations sur laquelle on peut cliquer sur "index.html"
+  - [Pr.] Créer la page d'informations sur laquelle on peut cliquer sur "index.html"
   - Elaborer certaines idées d'illustrations pour chaque type MBTI et fonction (à la manière de 16p)
   - Améliorer le prototype de logo (ou même le terminer)
     > Version simpliste pour le favicon
