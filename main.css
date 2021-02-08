@@ -91,3 +91,13 @@ body {
 		display: flex;
 	}
 }
+
+/* Pages d'information: Lettres */
+
+.infoLettres {
+	text-align: center;
+}
+
+.infoLettres img {
+	height: 150px;
+}
